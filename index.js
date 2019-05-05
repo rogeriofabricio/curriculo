@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+app.get('/header', (req, res) => {
+    res.render('header')
+})
+
 app.listen(3000, err => {
     if(err) {
         console.log('Não foi possível rodar o servidor!')

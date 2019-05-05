@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.conteudo {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 210px;
+    height: 210px;
+    margin-top: 20px;
+    border: 1px solid #000000
+}
+
+h1 {
+    background-color: rgb(10, 95, 175);
+    border-radius: 6px;
+}
+
+.linha {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-left: 20px;
+    font-weight: bold;
+}
+span {
+    font-style: italic;
+}
+
+p {
+    font-size: 10px;
+    color: #333333;
+}
